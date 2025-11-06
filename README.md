@@ -1,2 +1,4 @@
 # KICAD
-KiCad project developed as part of my application for the Drone Embedded Hardware Engineer Internship. Features ESP32-based PCB design, sensor interfacing, and hardware bring-up using diagnostic tools.
+This project showcases a compact and reliable DC power supply circuit designed using KiCad, with built-in reverse polarity protection and a visual power status indicator. The input is protected by a full-wave bridge rectifier using four 1N4007 diodes, ensuring safe operation even if the input terminals are reversed. A 1000µF capacitor smooths the rectified voltage, providing stable DC output. The circuit includes an LED indicator driven through a resistor network to signal power presence, making it ideal for embedded systems and prototyping environments.
+
+The output is delivered via a screw terminal labeled +VE and GND, ready to interface with microcontrollers, sensor hubs, or drone subsystems. This project demonstrates proficiency in circuit design, component selection, and PCB layout, aligning with real-world hardware engineering practices
